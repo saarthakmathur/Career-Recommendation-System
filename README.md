@@ -7,9 +7,11 @@ A Machine Learning–based system that predicts the most suitable career for a s
 ## 📌 Project Description
 
 Choosing the right career is a critical decision for students.  
-This project uses Machine Learning models to analyze student attributes and recommend an appropriate career path. The system compares multiple classification models and selects the best-performing one based on accuracy.
+This project uses Machine Learning models to analyze student attributes and recommend an appropriate career path.
 
-This project is developed for **academic learning and portfolio demonstration purposes**.
+Multiple classification models are trained and evaluated, and the best-performing model is selected based on accuracy.
+
+This project is developed for academic learning and portfolio demonstration purposes.
 
 ---
 
@@ -19,17 +21,16 @@ This project is developed for **academic learning and portfolio demonstration pu
 - Random Forest Classifier  
 - Logistic Regression (Multiclass)
 
-The model with the highest accuracy is selected automatically.
-
 ---
 
 ## 📊 Dataset Information
 
 - Dataset Type: Synthetic (Dummy data generated using NumPy)
 - Total Samples: 250
-- Target Variable: `career`
+- Target Variable: career
 
 ### Career Classes
+
 - Software Engineer  
 - Data Analyst  
 - Web Developer  
@@ -59,29 +60,27 @@ The model with the highest accuracy is selected automatically.
 1. Generate synthetic student data  
 2. Assign career labels using rule-based logic  
 3. Split data into training and testing sets  
-4. Train multiple ML models  
+4. Train multiple Machine Learning models  
 5. Evaluate models using accuracy and classification report  
 6. Compare model performance  
-7. Select the best model  
+7. Select the best-performing model  
 8. Predict career for a new student  
 
 ---
 
 ## 📈 Model Evaluation
 
-- Accuracy Score  
-- Classification Report  
-- Confusion Matrix  
-- Feature Importance (Random Forest)  
-- Visual comparison of model accuracies  
+- Accuracy comparison of models  
+- Classification report  
+- Confusion matrix  
+- Feature importance using Random Forest  
 
 ---
 
 ## 🔮 Sample Output
 
-🎯 Recommended Career: Software Engineer
+Recommended Career: Software Engineer  
 Confidence Score: 92.34%
-
 
 ---
 
@@ -96,38 +95,43 @@ Confidence Score: 92.34%
 
 ---
 
----
-
 ## 🚀 How to Run the Project
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/saarthakmathur/Career-Recommendation-System.git
-cd Career-Recommendation-System
+1. Clone the repository
 
-## 2️⃣ Install Dependencies
-pip install -r requirements.txt
+    git clone https://github.com/saarthakmathur/Career-Recommendation-System.git  
+    cd Career-Recommendation-System  
 
-## 3️⃣ Run the Project
-python career_prediction.py
+2. Install dependencies
+
+    pip install -r requirements.txt  
+
+3. Run the project
+
+    python career_prediction.py  
+
+You can also run the Jupyter Notebook version if available.
+
+---
 
 ## 📌 Future Improvements
 
-Use real-world student datasets
+- Use real-world student datasets  
+- Add Deep Learning models  
+- Build a web interface using Flask or Streamlit  
+- Improve prediction confidence calibration  
+- Add more career categories  
 
-Add Deep Learning models
-
-Build a web interface using Flask or Streamlit
-
-Improve prediction confidence calibration
-
-Add more career categories
+---
 
 ## ⚠️ Disclaimer
 
-This project uses synthetic data and is intended for educational and portfolio purposes only.
+This project uses synthetic data and is intended for educational and portfolio purposes only.  
 Predictions should not be considered real career advice.
+
+---
 
 ## 👤 Author
 
-Saarthak Mathur
+Saarthak Mathur  
+
