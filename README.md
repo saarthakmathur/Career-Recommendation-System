@@ -1,20 +1,15 @@
 # 🎯 Career Recommendation System using Machine Learning
 
-This project predicts the most suitable career for a student based on academic performance, skills, and interests using Machine Learning classification models.
+A Machine Learning–based system that predicts the most suitable career for a student based on skills, academic performance, and interests using classification algorithms.
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Description
 
-Choosing the right career is a challenging task for students.  
-This system uses **Machine Learning algorithms** to recommend a career path based on multiple attributes such as:
+Choosing the right career is a critical decision for students.  
+This project uses Machine Learning models to analyze student attributes and recommend an appropriate career path. The system compares multiple classification models and selects the best-performing one based on accuracy.
 
-- Programming knowledge  
-- Logical reasoning  
-- Mathematical ability  
-- Communication skills  
-- Creativity  
-- Interests (Technology, Design, Management)
+This project is developed for **academic learning and portfolio demonstration purposes**.
 
 ---
 
@@ -24,22 +19,23 @@ This system uses **Machine Learning algorithms** to recommend a career path base
 - Random Forest Classifier  
 - Logistic Regression (Multiclass)
 
-The best-performing model is automatically selected based on accuracy.
+The model with the highest accuracy is selected automatically.
 
 ---
 
-## 📊 Dataset
+## 📊 Dataset Information
 
-- Synthetic (dummy) dataset generated using NumPy  
-- Total samples: **250**
-- Target variable: `career`
-- Career categories:
-  - Software Engineer
-  - Data Analyst
-  - Web Developer
-  - ML Engineer
-  - UI/UX Designer
-  - Project Manager
+- Dataset Type: Synthetic (Dummy data generated using NumPy)
+- Total Samples: 250
+- Target Variable: `career`
+
+### Career Classes
+- Software Engineer  
+- Data Analyst  
+- Web Developer  
+- ML Engineer  
+- UI/UX Designer  
+- Project Manager  
 
 ---
 
@@ -58,58 +54,80 @@ The best-performing model is automatically selected based on accuracy.
 
 ---
 
-## 🔁 Workflow
+## 🔁 Project Workflow
 
-1. Generate synthetic dataset  
+1. Generate synthetic student data  
 2. Assign career labels using rule-based logic  
-3. Train ML models  
-4. Evaluate using:
-   - Accuracy Score
-   - Classification Report
-   - Confusion Matrix
-5. Compare model performance  
-6. Predict career for a new student  
+3. Split data into training and testing sets  
+4. Train multiple ML models  
+5. Evaluate models using accuracy and classification report  
+6. Compare model performance  
+7. Select the best model  
+8. Predict career for a new student  
 
 ---
 
 ## 📈 Model Evaluation
 
-- Accuracy comparison between models
-- Confusion Matrix visualization
-- Feature importance using Random Forest
+- Accuracy Score  
+- Classification Report  
+- Confusion Matrix  
+- Feature Importance (Random Forest)  
+- Visual comparison of model accuracies  
 
 ---
 
-## 🔮 Sample Prediction
+## 🔮 Sample Output
 
-```python
-🎯 Recommended Career: Software Engineer  
+🎯 Recommended Career: Software Engineer
 Confidence Score: 92.34%
 
-🛠 Technologies Used
 
-Python
+---
 
-Pandas
+## 🛠 Technologies Used
 
-NumPy
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
 
-Scikit-learn
+---
 
-Matplotlib
+---
 
-Seaborn
+## 🚀 How to Run the Project
 
-🚀 How to Run the Project
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/saarthakmathur/Career-Recommendation-System.git
+cd Career-Recommendation-System
+
+## 2️⃣ Install Dependencies
 pip install -r requirements.txt
+
+## 3️⃣ Run the Project
 python career_prediction.py
 
-Future Improvements
+## 📌 Future Improvements
 
-Use real student data
+Use real-world student datasets
 
-Add Deep Learning model
+Add Deep Learning models
 
-Build a web interface using Flask / Streamlit
+Build a web interface using Flask or Streamlit
 
-Improve confidence calibration
+Improve prediction confidence calibration
+
+Add more career categories
+
+## ⚠️ Disclaimer
+
+This project uses synthetic data and is intended for educational and portfolio purposes only.
+Predictions should not be considered real career advice.
+
+## 👤 Author
+
+Saarthak Mathur
