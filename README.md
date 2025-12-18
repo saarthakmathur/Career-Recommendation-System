@@ -84,6 +84,25 @@ Confidence Score: 92.34%
 
 ---
 
+---
+
+## 🖼 Output Screenshots
+
+### Model Accuracy Comparison
+![Model Accuracy](images/accuracy_comparison.png)
+
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Feature Importance (Random Forest)
+![Feature Importance](images/feature_importance.png)
+
+### Sample Career Prediction
+![Sample Prediction](images/sample_prediction.png)
+
+---
+
+
 ## 🛠 Technologies Used
 
 - Python  
