@@ -85,3 +85,31 @@ The best-performing model is automatically selected based on accuracy.
 ```python
 🎯 Recommended Career: Software Engineer  
 Confidence Score: 92.34%
+
+🛠 Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Matplotlib
+
+Seaborn
+
+🚀 How to Run the Project
+pip install -r requirements.txt
+python career_prediction.py
+
+Future Improvements
+
+Use real student data
+
+Add Deep Learning model
+
+Build a web interface using Flask / Streamlit
+
+Improve confidence calibration
